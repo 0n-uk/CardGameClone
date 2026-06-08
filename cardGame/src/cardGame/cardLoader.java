@@ -10,7 +10,7 @@ public class cardLoader {
     private static final String IMAGES_RESOURCE_FOLDER = "/images/";
 
     // ----- External user data (READ/WRITE) -----
-    private static final String USER_COLLECTIONS_FILE = "eclipse-workspace\\Personalstuff\\cardGame\\user_data\\user_collection.txt";
+    private static final String USER_COLLECTIONS_FILE = System.getProperty("user.home") + "/.cardgame/user_data/user_collection.txt";
     private static final String SPECIALS_RESOURCE = "/data/specials.txt";
 
     /**
@@ -165,7 +165,7 @@ public class cardLoader {
         collections.put(username, String.join(",", merged));
 
         // Ensure all users exist
-        File userFile = new File("user_data/users.txt");
+        File userFile = new File(System.getProperty("user.home"), ".cardgame/user_data/users.txt");
         if (userFile.exists()) {
             try (Scanner sc = new Scanner(userFile)) {
                 while (sc.hasNextLine()) {
@@ -179,9 +179,10 @@ public class cardLoader {
             }
         }
 
-        // Rewrite boxed format
-        try (PrintWriter pw = new PrintWriter(new FileWriter(file))) {
-            for (Map.Entry<String, String> entry : collections.entrySet()) {
+            file.getParentFile().mkdirs();
+            // Rewrite boxed format
+            try (PrintWriter pw = new PrintWriter(new FileWriter(file))) {
+                for (Map.Entry<String, String> entry : collections.entrySet()) {
                 pw.println("=================================");
                 pw.println(entry.getKey() + "|" + entry.getValue());
                 pw.println("=================================");

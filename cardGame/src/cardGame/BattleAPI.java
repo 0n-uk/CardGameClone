@@ -67,7 +67,7 @@ public interface BattleAPI {
  // === NEW: UI Callbacks ===
     void openGraveyardUI(BattleCard caster);
  // === NEW: UI Callbacks ===
-    void triggerSpecialCoinflip(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete);
+    void triggerCoinflip(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete);
  // === NEW: Forced Card Draw ===
  // === UPDATED: Pass the caster so we can check their dog tags! ===
     void forceDraw(BattleCard caster, int amount);
@@ -92,8 +92,6 @@ public interface BattleAPI {
  	void reviveSelf(BattleCard target, boolean isP1);
  	void finalizeDeath(BattleCard target, boolean isP1);
  // === NEW: Defense Interceptor Mechanics ===
- // === NEW: Defense Interceptor Mechanics ===
-    void triggerDefensiveCoinflip(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete);
     BattleCard processDefensiveTricks(BattleCard attacker, BattleCard target, String commandStr);
     BattleCard doConfuseRedirect(BattleCard attacker, BattleCard target);
     }

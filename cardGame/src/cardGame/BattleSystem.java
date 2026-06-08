@@ -1832,7 +1832,7 @@ public class BattleSystem implements BattleAPI {
 	@Override
 	public BattleCard doConfuseRedirect(BattleCard attacker, BattleCard target) {
 		// 50/50 Coinflip!
-		boolean heads = Math.random() < 0.5;
+		boolean heads = syncedRng.nextBoolean();
 
 		if (heads) {
 			System.out.println("T-BOT: Coinflip won! T-Bot takes the hit.");
@@ -1866,7 +1866,7 @@ public class BattleSystem implements BattleAPI {
 		}
 
 		// Pick a random teammate to take the punch!
-		int randomIndex = (int) (Math.random() * validVictims.size());
+		int randomIndex = syncedRng.nextInt(validVictims.size());
 		BattleCard newVictim = validVictims.get(randomIndex);
 
 		System.out.println("T-BOT: Attack successfully redirected to " + newVictim.getBaseCard().getName() + "!");
@@ -1966,16 +1966,6 @@ public class BattleSystem implements BattleAPI {
 	}
 
 	@Override
-	public void triggerDefensiveCoinflip(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete) {
-		if (onDefensiveCoinflipRequest != null) {
-			onDefensiveCoinflipRequest.playAnimation(isHeads, headsMsg, tailsMsg, onComplete);
-		} else {
-			// Failsafe if GUI isn't listening: just execute instantly
-			onComplete.run();
-		}
-	}
-
-	@Override
 	public cards pluckFromGraveyard(String cardId) {
 		if (graveyard == null || graveyard.isEmpty())
 			return null;
@@ -1996,11 +1986,11 @@ public class BattleSystem implements BattleAPI {
 
 	// 3. Update the Overridden API method at the bottom of the file
 	@Override
-	public void triggerSpecialCoinflip(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete) {
+	public void triggerCoinflip(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete) {
 		if (specialCoinflipCallback != null) {
 			specialCoinflipCallback.onFlip(isHeads, headsMsg, tailsMsg, onComplete);
 		} else {
-			onComplete.run();
+			if (onComplete != null) onComplete.run(); 
 		}
 	}
 

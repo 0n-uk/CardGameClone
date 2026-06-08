@@ -71,7 +71,7 @@
 #Connors pool of weak cards START
 
 #Ice Spirit
-01021 | CHOSEN | CF | target(1) -> if_1: pacify[3] + silence[3] | if_2: null
+01021 | CHOSEN | CF | target(1) -> if_1: freeze[3] | if_2: null
 
 # Water Spirit (Grants all allies +2 HP on play, removes it on death)
 01022 | PASSIVE | ON_PLAY | if_1: water_shield_up[2] | if_2: null ++ PASSIVE | ON_DEATH | if_1: water_shield_down[2] | if_2: null
@@ -218,7 +218,7 @@ jacob pool of strong cards START
 01105 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
 
 #Rat Demon
-01106 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+01081 | PASSIVE | ON_DEATH | roll_dice[3] | donothing[0]
 
 #Scrap Dog
 01107 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 

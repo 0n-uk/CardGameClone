@@ -120,7 +120,7 @@ public class BattleGUI extends JFrame {
 		battle.setCoinflipCallback((isHeads, isLocal) -> {
 		    activeAnimations++; // <--- THE FIX: Locked instantly!
 		    SwingUtilities.invokeLater(() -> {
-		        coinflipQueue.add(() -> showCoinflipAnimation(isHeads, isLocal));
+		        coinflipQueue.add(() -> coinFlip(isHeads, null, null, true, isLocal, null));
 		        playNextCoinflip();
 		    });
 		});
@@ -130,17 +130,17 @@ public class BattleGUI extends JFrame {
 		battle.setSpecialCoinflipCallback((isHeads, headsMsg, tailsMsg, onComplete) -> {
 		    activeAnimations++; // <--- THE FIX: Locked instantly!
 		    SwingUtilities.invokeLater(() -> {
-		        coinflipQueue.add(() -> showSpecialCoinflipAnimation(isHeads, headsMsg, tailsMsg, onComplete));
+		        coinflipQueue.add(() -> coinFlip(isHeads, headsMsg, tailsMsg, false, false, onComplete));
 		        playNextCoinflip();
 		    });
 		});
 
 		String networkId = isLocalPlayer1 ? "P1" : "P2";
 
-		battle.onDefensiveCoinflipRequest = (isHeads, hMsg, tMsg, onComplete) -> {
+		battle.onDefensiveCoinflipRequest = (isHeads, headsMsg, tailsMsg, onComplete) -> {
 		    activeAnimations++; // <--- THE FIX: Locked instantly!
 		    SwingUtilities.invokeLater(() -> {
-		        coinflipQueue.add(() -> showSpecialCoinflipAnimation(isHeads, hMsg, tMsg, onComplete));
+		        coinflipQueue.add(() -> coinFlip(isHeads, headsMsg, tailsMsg, false, false, onComplete));
 		        playNextCoinflip();
 		    });
 		};
@@ -422,7 +422,7 @@ public class BattleGUI extends JFrame {
 	    );
 
 	    if (hasCoinflip && !rawCommand.contains("COIN:")) {
-	        boolean isHeads = Math.random() < 0.5;
+	        boolean isHeads = battle.getSpecialRng().nextBoolean();
 	        return rawCommand + " | COIN:" + (isHeads ? "HEADS" : "TAILS");
 	    }
 	    return rawCommand;
@@ -780,6 +780,10 @@ if (onPlaySlice != null) {
 								    attackItem.setEnabled(false);
 								    attackItem.setToolTipText("This card has been pacified and cannot attack!");
 								}
+								else if (battle.hasStatus(bc, "FREEZE")) {
+								    attackItem.setEnabled(false);
+								    attackItem.setToolTipText("This card is frozen and cannot attack!");
+								}
 
 								// === 1. EXTRACT INNATE SLICE ===
 								String cardId = bc.getBaseCard().getCardID();
@@ -807,6 +811,9 @@ if (onPlaySlice != null) {
 								    // === THE MISSING CHECK: Lock the button if they were silenced! ===
 								    specialItem.setEnabled(false);
 								    specialItem.setToolTipText("This card is silenced and cannot use special abilities!");
+								} else if (battle.hasStatus(bc, "FREEZE")) {
+								    specialItem.setEnabled(false);
+								    specialItem.setToolTipText("This card is frozen and cannot use special abilities!");
 								} else if (innateSlice == null && stolenSlice == null) {
 								    // If BOTH are null/passive, the button greys out.
 								    specialItem.setEnabled(false);
@@ -1101,19 +1108,23 @@ if (onPlaySlice != null) {
 		timer.start();
 	}
 
-	// ==========================================
-	// Coinflip Animator
-	// ==========================================
-	private void showCoinflipAnimation(boolean isHeads, boolean isLocalPlayer) {
+	// Coinflip
+	private void coinFlip(boolean isHeads, String headsMsg, String tailsMsg, boolean isTurnOrderFlip, boolean isLocalPlayer, Runnable onComplete) {
 		JDialog flipDialog = new JDialog(this, false);
 		flipDialog.setUndecorated(true);
 		flipDialog.setFocusableWindowState(false);
+		if (isTurnOrderFlip) {
+			flipDialog.getRootPane().setBorder(BorderFactory.createLineBorder(Color.WHITE, 2));
+		}
+		else {
+			flipDialog.getRootPane().setBorder(BorderFactory.createLineBorder(Color.MAGENTA, 3));
+		}
 		flipDialog.getContentPane().setBackground(new Color(40, 40, 40));
-		flipDialog.getRootPane().setBorder(BorderFactory.createLineBorder(Color.WHITE, 2));
 		flipDialog.setLayout(new BorderLayout());
 
 		// 1. Exact file names so "coin.png" is Heads (0) and "coin3.png" is Tails (2)
-		String[] coinFiles = { "/images/coin.png", // Frame 0: HEADS
+		String[] coinFiles = { 
+				"/images/coin.png", // Frame 0: HEADS
 				"/images/coin2.png", // Frame 1: In-between
 				"/images/coin3.png", // Frame 2: TAILS
 				"/images/coin4.png" // Frame 3: In-between
@@ -1213,102 +1224,6 @@ if (onPlaySlice != null) {
 
 		animTimer.start();
 	}
-
-	// ==========================================
-	// Special Coinflip Animator (With Callback Pause!)
-	// ==========================================
-	// Update the method signature to accept the strings!
-	private void showSpecialCoinflipAnimation(boolean isHeads, String headsMsg, String tailsMsg, Runnable onComplete) {
-		JDialog flipDialog = new JDialog(this, false);
-		flipDialog.setUndecorated(true);
-		flipDialog.setFocusableWindowState(false);
-		flipDialog.getContentPane().setBackground(new Color(40, 40, 40));
-		flipDialog.getRootPane().setBorder(BorderFactory.createLineBorder(Color.MAGENTA, 3)); // Magenta so it matches
-																								// targeting!
-		flipDialog.setLayout(new BorderLayout());
-
-		String[] coinFiles = { "/images/coin.png", "/images/coin2.png", "/images/coin3.png", "/images/coin4.png" };
-		ImageIcon[] frames = new ImageIcon[4];
-		for (int i = 0; i < 4; i++) {
-			java.net.URL url = getClass().getResource(coinFiles[i]);
-			if (url != null)
-				frames[i] = new ImageIcon(new ImageIcon(url).getImage().getScaledInstance(80, 80, Image.SCALE_SMOOTH));
-		}
-
-		JLabel imageLabel = new JLabel();
-		if (frames[0] != null)
-			imageLabel.setIcon(frames[0]);
-		imageLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		imageLabel.setBorder(BorderFactory.createEmptyBorder(15, 20, 5, 20));
-
-		JLabel textLabel = new JLabel("Rolling for Special...", SwingConstants.CENTER);
-		textLabel.setForeground(Color.LIGHT_GRAY);
-		textLabel.setFont(new Font("SansSerif", Font.ITALIC, 16));
-		textLabel.setBorder(BorderFactory.createEmptyBorder(5, 30, 15, 30));
-
-		flipDialog.add(imageLabel, BorderLayout.NORTH);
-		flipDialog.add(textLabel, BorderLayout.CENTER);
-
-		flipDialog.setSize(350, 180);
-		flipDialog.setLocationRelativeTo(centerWrapper);
-		flipDialog.setVisible(true);
-
-		final int[] currentFrame = { 0 };
-		final int[] flipCount = { 0 };
-		int totalFlips = 15;
-
-		javax.swing.Timer animTimer = new javax.swing.Timer(100, null);
-		animTimer.addActionListener(e -> {
-			flipCount[0]++;
-			currentFrame[0] = (currentFrame[0] + 1) % 4;
-			if (frames[currentFrame[0]] != null)
-				imageLabel.setIcon(frames[currentFrame[0]]);
-
-			if (flipCount[0] >= totalFlips) {
-				animTimer.stop();
-
-				// Snap to the final face
-				if (isHeads && frames[0] != null)
-					imageLabel.setIcon(frames[0]);
-				else if (!isHeads && frames[2] != null)
-					imageLabel.setIcon(frames[2]);
-
-				// === THE FIX: Use our dynamic text and a neutral color! ===
-				// === THE FIX: Use our dynamic text and a neutral color! ===
-				String face = isHeads ? "Heads" : "Tails";
-				String outcome = isHeads ? headsMsg : tailsMsg;
-
-				// === THE WORD-WRAP FIX ===
-				// === THE WORD-WRAP FIX (Perfectly Centered) ===
-				textLabel.setText("<html><p align='center' style='width: 230px;'>" + face + " - " + outcome + "</p></html>");
-				textLabel.setFont(new Font("SansSerif", Font.BOLD, 16));
-
-				// Changed to Yellow so it looks like a neutral "System Announcement"
-				textLabel.setForeground(new Color(255, 215, 0));
-				// Wait 1.5 seconds for the player to read the result, THEN execute the backend
-				// logic!
-				// Wait 1.5 seconds for the player to read the result, THEN execute the backend logic!
-				javax.swing.Timer killTimer = new javax.swing.Timer(1500, evt -> {
-				    flipDialog.dispose();
-				    if (onComplete != null) onComplete.run();
-				    
-				    // === THE QUEUE FIX ===
-				    isCoinflipPlaying = false;
-				    activeAnimations--;
-				    playNextCoinflip();
-				    
-				    // Once ALL animations finish, it is safe to check the board!
-				    if (activeAnimations == 0 && pendingDeaths.get() == 0) {
-				        refreshBoard();
-				    }
-				});
-				killTimer.setRepeats(false);
-				killTimer.start();
-			}
-		});
-		animTimer.start();
-	}
-
 	// ==========================================
 	// Graveyard Popup Viewer
 	// ==========================================
@@ -1865,57 +1780,6 @@ if (onPlaySlice != null) {
 			label.setHorizontalAlignment(SwingConstants.CENTER);
 			return label;
 		}
-	// ==========================================
-	// Attack Handler
-	// ==========================================
-
-	/*
-	 * private void handleAttack() { // A tiny helper class just to format the
-	 * dropdown text! class CardItem { BattleCard bc; String label;
-	 * 
-	 * CardItem(BattleCard bc, String label) { this.bc = bc; this.label = label; }
-	 * 
-	 * public String toString() { return label; } // This is what the dropdown
-	 * actually displays }
-	 * 
-	 * List<BattleCard> attackers = battle.getAttackableCards();
-	 * 
-	 * if (attackers.isEmpty()) { showToast("No cards can attack."); return; }
-	 * 
-	 * // Build a beautiful, readable list of your attackers CardItem[]
-	 * attackerItems = new CardItem[attackers.size()]; for (int i = 0; i <
-	 * attackers.size(); i++) { BattleCard bc = attackers.get(i); attackerItems[i] =
-	 * new CardItem(bc, "Your " + bc.getBaseCard().getName() + " (ATK: " +
-	 * bc.getAtk() + ")"); }
-	 * 
-	 * CardItem selectedAttacker = (CardItem) JOptionPane.showInputDialog(this,
-	 * "Choose Your Attacker", "Attack", JOptionPane.PLAIN_MESSAGE, null,
-	 * attackerItems, attackerItems[0]);
-	 * 
-	 * if (selectedAttacker == null) return; BattleCard attacker =
-	 * selectedAttacker.bc; // Extract the real card
-	 * 
-	 * List<BattleCard> targets = battle.getEnemyCards();
-	 * 
-	 * if (targets.isEmpty()) { showToast("No targets available."); return; }
-	 * 
-	 * // Build a beautiful, readable list of the enemy targets CardItem[]
-	 * targetItems = new CardItem[targets.size()]; for (int i = 0; i <
-	 * targets.size(); i++) { BattleCard bc = targets.get(i); targetItems[i] = new
-	 * CardItem(bc, "Enemy " + bc.getBaseCard().getName() + " (HP: " + bc.getHp() +
-	 * ")"); }
-	 * 
-	 * CardItem selectedTarget = (CardItem) JOptionPane.showInputDialog(this,
-	 * "Choose Enemy Target", "Attack", JOptionPane.PLAIN_MESSAGE, null,
-	 * targetItems, targetItems[0]);
-	 * 
-	 * if (selectedTarget == null) return; BattleCard target = selectedTarget.bc; //
-	 * Extract the real card
-	 * 
-	 * battle.attack(attacker, target); refreshBoard();
-	 * 
-	 * }
-	 */
 
 	private List<cards> buildDeck(List<String> ids, Map<String, cards> allCards) {
 

@@ -20,7 +20,7 @@ public class DeckIO {
 
     public DeckIO(String username) {
         this.username = username;
-        File folder = new File("eclipse-workspace\\Personalstuff\\cardGame\\user_data");
+        File folder = new File(System.getProperty("user.home"), ".cardgame/user_data");
         if (!folder.exists()) folder.mkdirs();
         this.decksFile = new File(folder, "user_deck.txt");
     }

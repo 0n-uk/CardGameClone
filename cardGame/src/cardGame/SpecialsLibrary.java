@@ -146,6 +146,10 @@ public class SpecialsLibrary {
                     headsMsg = "HEADS! Wild barrage! 2x damage to all enemies!";
                     tailsMsg = "TAILS! Gun backfired! Slinger is destroyed!";
                     break;
+                case "01021": // Ice Spirit
+                    headsMsg = "HEADS! Freeze ball! Target is Frozen for 3 rounds!";
+                    tailsMsg = "TAILS! Freeze ball missed!";
+                    break;
                 case "01081": // Midnight Wolf
                     headsMsg = "HEADS! Midnight Wolf escapes to your hand!";
                     tailsMsg = "TAILS! The Wolf fades to the graveyard.";
@@ -205,7 +209,7 @@ public class SpecialsLibrary {
 String executionPath = isHeads ? if1 : if2;
             
             // BRING BACK THE COINFLIP UI!
-            api.triggerSpecialCoinflip(isHeads, headsMsg, tailsMsg, () -> {
+            api.triggerCoinflip(isHeads, headsMsg, tailsMsg, () -> {
                 executeChainedCommands(api, executionPath, isLocalPlayerCasting, caster, targets);
             });
         }
@@ -1339,16 +1343,25 @@ private static void executeChainedCommands(BattleAPI api, String executionPath, 
                 return true;
             
             }
-            case "freeze":
+            case "freeze": {
                 // Freeze the target for X turns (they can't attack or use abilities, but they can still be targeted and hit with damage)
-                api.addStatus(caster, "FREEZE", param);
-                break;
+                List<BattleCard> freezeTargets = (targets != null && !targets.isEmpty()) 
+                ? targets 
+                : java.util.Collections.singletonList(caster);
+                
+                for (BattleCard t : freezeTargets) {
+                    if (t != null) {
+                        api.addStatus(t, "FREEZE", param);
+                        System.out.println("LIBRARY: " + t.getBaseCard().getName() + " is frozen for " + param + " turns!");
+                    }
+                }
+                return true;
+            }
                 
             default:
                 System.out.println("Abort: Unknown special action -> " + action);
                 return true;
         }
-        return false;
     }
 
     // ==========================================
@@ -1675,7 +1688,7 @@ String defendTrick = extractSegment(commandStr, "ON_DEFEND");
   			
   			if (isHeads) {
   				if (isLocalAttack) api.broadcastDefensiveCoinflip(true, headsMsg, tailsMsg); 
-  				api.triggerDefensiveCoinflip(true, headsMsg, tailsMsg, () -> onResolve.accept(target));
+  				api.triggerCoinflip(true, headsMsg, tailsMsg, () -> onResolve.accept(target));
   			} else {
   				BattleCard newTarget = calculateRedirectTarget(api, attacker, target);
   				
@@ -1688,7 +1701,7 @@ String defendTrick = extractSegment(commandStr, "ON_DEFEND");
   				}
   				
   				if (isLocalAttack) api.broadcastDefensiveCoinflip(false, headsMsg, tailsMsg); 
-  				api.triggerDefensiveCoinflip(false, headsMsg, tailsMsg, () -> onResolve.accept(newTarget));
+  				api.triggerCoinflip(false, headsMsg, tailsMsg, () -> onResolve.accept(newTarget));
   			}
   		} 
 		/*
@@ -1740,14 +1753,14 @@ String defendTrick = extractSegment(commandStr, "ON_DEFEND");
   			if (isHeads) {
   				if (isLocalAttack) api.broadcastDefensiveCoinflip(true, headsMsg, tailsMsg); 
   				System.out.println("Dodged");
-  				api.triggerDefensiveCoinflip(true, headsMsg, tailsMsg, () -> {
+  				api.triggerCoinflip(true, headsMsg, tailsMsg, () -> {
   				    // Give them the dodge charge right before the punch lands!
   				    target.addDodges(1); 
   				    onResolve.accept(target);
   				});
   			} else {
   				if (isLocalAttack) api.broadcastDefensiveCoinflip(false, headsMsg, tailsMsg); 
-  				api.triggerDefensiveCoinflip(false, headsMsg, tailsMsg, () -> onResolve.accept(target));
+  				api.triggerCoinflip(false, headsMsg, tailsMsg, () -> onResolve.accept(target));
   			}
   		}
   		else {

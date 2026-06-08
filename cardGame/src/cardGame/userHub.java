@@ -111,7 +111,7 @@ public class userHub extends JFrame {
 
             if (choice == 0) { // Host
                 // 1. Launch the server in the background
-                new Thread(() -> ChatServer.main(new String[0])).start();
+                //new Thread(() -> ChatServer.main(new String[0])).start();
 
                 // 2. Close the UserHub window
                 dispose();

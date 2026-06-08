@@ -230,7 +230,7 @@ public class userPage extends JFrame {
                 }
                 
              // NEW — automatically create timestamp
-                TimeStampManager.createUserIfMissing(newUser);
+                //TimeStampManager.createUserIfMissing(newUser);
 
 
                 // --- Sync user collections after registration ---

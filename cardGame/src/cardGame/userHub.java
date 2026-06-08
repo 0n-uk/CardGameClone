@@ -82,14 +82,13 @@ public class userHub extends JFrame {
             new userPage();
         });
 
+        //coming soon
         viewCardsButton.addActionListener(e -> {
-            dispose();
-            new CardCollection(username);
+                infoLabel.setText("Card collection coming soon!");
         });
 
         openPacksButton.addActionListener(e -> {
-            dispose();
-            new selectPack(username);
+                infoLabel.setText("Card packs coming soon!");   
         });
 
         dailyMissionsButton.addActionListener(e -> {

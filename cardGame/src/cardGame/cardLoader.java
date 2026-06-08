@@ -129,13 +129,6 @@ public class cardLoader {
     }
 
     /**
-     * Register a new user by syncing collections
-     */
-    public static void registerUserCollection(String username) {
-        UserCollectionSyncer.sync();
-    }
-
-    /**
      * Save or update a user's collection
      */
     public static void saveUserCollection(String username, List<String> newCardIDs) {

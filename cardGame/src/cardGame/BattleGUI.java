@@ -15,7 +15,6 @@ import javax.swing.*;
 public class BattleGUI extends JFrame {
 
 	private BattleSystem battle;
-	private static Clip battleMusic;
 
 	private JPanel playerFieldPanel = new JPanel(new GridLayout(2, 4, 10, 10));
 	private JPanel enemyFieldPanel = new JPanel(new GridLayout(2, 4, 10, 10));
@@ -151,29 +150,11 @@ public class BattleGUI extends JFrame {
 		    SwingUtilities.invokeLater(() -> refreshBoard());
 		}, localIDs);
 
-		// end menu music when battle starts
-	MusicPlayer.stop();
-		// Load and play battle music
-        try {
-            File audioFile = new File("eclipse-workspace\\Personalstuff\\cardGame\\resources\\toons\\bot_stairway.wav");
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
-            battleMusic = AudioSystem.getClip();
-            battleMusic.open(audioInputStream);
-            battleMusic.loop(Clip.LOOP_CONTINUOUSLY);
-        } catch (Exception e) {
-            System.err.println("Error loading battle music: " + e.getMessage());
-        }
-
 		battle.setDisconnectCallback(() -> SwingUtilities.invokeLater(() -> {
 			if (!isGameOver) {
 				isGameOver = true;
 				matchStarted = false;
 				triggerGameOver("Opponent disconnected. You win!");
-				//ends battle music if opponent disconnects
-				if (battleMusic != null && battleMusic.isRunning()) {
-					battleMusic.stop();
-				}
-				MusicPlayer.stop(); // in case music is playing
 			}
 		}));
 		
@@ -1531,11 +1512,6 @@ if (onPlaySlice != null) {
 
 		endTurnBtn.setEnabled(false);
 
-		//ends battle music if game ends
-		if (battleMusic != null && battleMusic.isRunning()) {
-			battleMusic.stop();
-		}
-
 		showPostGameMenu(message);
 	}
 
@@ -1633,12 +1609,6 @@ if (onPlaySlice != null) {
 
 					showToast("Match Restarted! Click Ready to begin.", 2000);
 					
-					// Restart the battle music for the rematch
-					if (battleMusic != null) {
-						battleMusic.stop();
-						battleMusic.setFramePosition(0);
-						battleMusic.loop(Clip.LOOP_CONTINUOUSLY);
-					}
 					
 					refreshBoard();
 				})

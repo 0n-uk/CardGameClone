@@ -119,9 +119,9 @@ public class userHub extends JFrame {
                 // 3. Launch BattleGUI as Player 1
                 // (Real username is first, Player 2 is a placeholder)
                 SwingUtilities.invokeLater(() ->
-                        new BattleGUI(username, "Opponent", true)
-                );
-
+                                    new BattleGUI(username, "Opponent", true)
+                                                    );
+                                                    
             } else if (choice == 1) { // Join
                 // 1. Close the UserHub window
                 dispose();

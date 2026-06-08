@@ -13,7 +13,8 @@ public class main {
 	            // Ignore, proceed with default
 	        }
 
-	        // Launch the LandingPage GUI
+	        // Launch the LandingPage GUIs
+			    SwingUtilities.invokeLater(() -> new BattleGUI("Host", B, true));
                 SwingUtilities.invokeLater(() -> new BattleGUI(B, "Opponent", true));
 	    }
 	}

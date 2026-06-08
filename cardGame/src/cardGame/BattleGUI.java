@@ -1568,9 +1568,6 @@ if (onPlaySlice != null) {
 			battle.rejectRematch();
 			postGameDialog.dispose();
 			this.dispose(); // This completely closes the BattleGUI!
-
-			// === THE FIX: Use the global variable to open the Hub! ===
-			new userHub(this.localUsername);
 		});
 
 		btnPanel.add(rematchBtn);

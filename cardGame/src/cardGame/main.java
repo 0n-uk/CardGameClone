@@ -5,15 +5,27 @@ import javax.swing.UIManager;
 
 public class main {
 
-	 public static void main(String[] args) {
-	        // Set a consistent look and feel
-	        try {
-	            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-	        } catch (Exception ex) {
-	            // Ignore, proceed with default
-	        }
+    public static void main(String[] args) {
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception ex) {
+            // Ignore, proceed with default
+        }
 
-	        // Launch the LandingPage GUIs
-	        SwingUtilities.invokeLater(() -> new userPage());
-	    }
-	}
+        // Start the server in the background
+        new Thread(() -> ChatServer.main(new String[0])).start();
+
+        // Launch host instance (Player 1)
+        SwingUtilities.invokeLater(() -> new BattleGUI("UserB", "UserB", true));
+
+        // Give the server a moment to start, then launch the joining instance (Player 2)
+        new Thread(() -> {
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            SwingUtilities.invokeLater(() -> new BattleGUI("UserB", "UserB", false));
+        }).start();
+    }
+}

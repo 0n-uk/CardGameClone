@@ -17,10 +17,21 @@ public class cardLoader {
      * Load all cards from cards.txt inside the JAR
      */
     
+    private static InputStream openResource(String resourcePath) {
+        InputStream is = cardLoader.class.getResourceAsStream(resourcePath);
+        if (is != null) return is;
+        // Fallback: look relative to working directory under resources/
+        try {
+            File f = new File("resources" + resourcePath);
+            if (f.exists()) return new FileInputStream(f);
+        } catch (IOException ignored) {}
+        return null;
+    }
+
     public static Map<String, String> loadSpecials() {
         Map<String, String> specialsMap = new HashMap<>();
 
-        try (InputStream is = cardLoader.class.getResourceAsStream(SPECIALS_RESOURCE)) {
+        try (InputStream is = openResource(SPECIALS_RESOURCE)) {
             if (is == null) {
                 System.out.println("Warning: specials.txt not found in JAR resources");
                 return specialsMap; // Return empty map so game doesn't crash
@@ -53,7 +64,7 @@ public class cardLoader {
     public static Map<String, cards> loadAllCards() {
         Map<String, cards> allCards = new HashMap<>();
 
-        try (InputStream is = cardLoader.class.getResourceAsStream(ALL_CARDS_RESOURCE)) {
+        try (InputStream is = openResource(ALL_CARDS_RESOURCE)) {
 
             if (is == null) {
                 throw new RuntimeException("cards.txt not found in JAR resources");

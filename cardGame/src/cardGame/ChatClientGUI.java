@@ -118,7 +118,6 @@ public class ChatClientGUI {
 
     private void returnToHub() {
         if (frame != null) frame.dispose();
-        SwingUtilities.invokeLater(() -> new userHub(username));
     }
 
   

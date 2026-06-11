@@ -16,16 +16,16 @@ public class main {
         new Thread(() -> ChatServer.main(new String[0])).start();
 
         // Launch host instance (Player 1)
-        SwingUtilities.invokeLater(() -> new BattleGUI("UserB", "UserB", true));
+        SwingUtilities.invokeLater(() -> new BattleGUI("B", "B", true));
 
         // Give the server a moment to start, then launch the joining instance (Player 2)
         new Thread(() -> {
             try {
-                Thread.sleep(500);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
-            SwingUtilities.invokeLater(() -> new BattleGUI("UserB", "UserB", false));
+            SwingUtilities.invokeLater(() -> new BattleGUI("B", "B", false));
         }).start();
     }
 }

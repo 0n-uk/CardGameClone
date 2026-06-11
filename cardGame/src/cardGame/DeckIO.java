@@ -1,8 +1,21 @@
 package cardGame;
 
-import java.io.*;
-import java.util.*;
-import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import javax.swing.JOptionPane;
 
 /**
  * DeckIO - handles deck save/load/delete and selection dialogs.
@@ -20,7 +33,7 @@ public class DeckIO {
 
     public DeckIO(String username) {
         this.username = username;
-        File folder = new File(System.getProperty("user.home"), ".cardgame/user_data");
+        File folder = new File("eclipse-workspace\\Personalstuff\\cardGame\\user_data");
         if (!folder.exists()) folder.mkdirs();
         this.decksFile = new File(folder, "user_deck.txt");
     }

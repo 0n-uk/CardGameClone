@@ -1,0 +1,101 @@
+# Jacob's pool of weak cards
+
+01001 | The Local Sheriff| Lawful Execution: On heads, 2 Enemies are insta-killed & card returns to hand| 6 | 6 | 3
+01002 | Flame Monkey| Flame Aura: When played, it can't be attacked for 3 rounds| 5 | 7 | 2
+01003 | Buffo | Once played, all enemy cards lose -3 atk until either card's death | 4 | 6 | 1
+01004 | Coco Goons| Upon Death, all cards on field recover to full hp| 2 | 4 | 1
+01005 | Short Knight | On heads, gains +3 atk, On tails, gains +3 hp | 3 | 3 | 1
+01006 | Strange Airborne Device | Upon Death, it explodes, dealing 5 dmg to all enemy field cards | 4 | 6 | 1
+01007 | Candle Stick Mage | Upon Death, Mage explodes, insta-killing all enemy field cards | 7 | 4 | 2
+01008 | Pirate Parrot | Parrot Squawking: Can use the most recently used special | 3 | 7 | 3
+01009 | The Magic Vase | On heads, 2 cards can be drawn from player deck; On tails, a graveyard card is revived | 8 | 4 | 3
+01010 | Clueless Daredevil | Lucky Chance: Dodges the first three attacks to it, including specials | 6 | 6 | 2
+01011 | Traveling Troubadour | Alluring Melody: On heads, an enemy card joins the player's side | 5 | 6 | 2
+01012 | The Unwilling Martyr | Upon death, card can revive a card from the graveyard in place of this one | 6 | 6 | 3
+01013 | Quick Bomb | Endless Explosions: If an enemy card dies after being attacked by this card, it returns to your hand| 8 | 0 | 3
+01014 | Crystalite | All attacks to it are reduced to 1 dmg | 1 | 3 | 2
+01015 | T-Bot (Mini) | Confuse Enemy: When attacked, flip a coin to see if attacker attacks this card or a random enemy field card | 2 | 8 | 1
+01016 | C-Rock-odile | Hardened Skin: Reduce attack to it by -5 atk | 2 | 8 | 1
+01017 | Stick Man | Stick Man | 1 | 1 | 1
+01018 | Classy UFO | When played, it instantly attacks all enemy cards with +2 atk (can atk again); Alien Defense Shield: On heads, for 5 rounds, all attacks are reflected back to the attacker | 6 | 6 | 3
+01019 | Lucky Gun Slinger | On heads, can attack all enemy field cards with 2x times; On tails, this card goes to the graveyard| 5 | 5 | 1
+01020 | Skeleton | When in defense mode, its bones harden, increasing its hp by +3 | 3 | 3 | 1
+
+#Connor's pool of weak cards	
+01021 | Ice Spirit | On heads, one enemy card is frozen for 3 rounds | 3 | 9 | 1
+01022 |	Water Spirit |Water Bubble Shield: All player cards gain +2 hp for as long as the spirit remains alive	| 4	| 8 | 1
+01023 |	Fire Spirit |Burn: Cards attacked by this card lose -2 hp every turn for 4 rounds	| 5	| 4 | 1
+01024 |	Skelly bros | On heads, can attack 3 times. On tails, card goes to the graveyard	| 4	| 5 |1 
+01025 |	Scrap Bot |	When played, spawn 1 scrap: every 3 turns, spawn 1 scrap | 1 | 2 | 1
+01026 |	Battle Bot | When attacking, deals +1 dmg for each scrap on field	| 7	| 3 | 2
+01027 |	Snow hare | When attacked, flip a coin; On heads, the enemy card attacking deals no dmg	| 3	| 3 | 1
+01028 |	Arctic fox | Marked for Death: When this card attacks an enemy card, it will deal 2x dmg to that same card the next attack	| 6	| 6 | 1
+01029 |	Formless Beast | When used, choose a card. card chosen will have its base stats added to this card	| 5	| 5| 3
+01030 |	Miner Bot | On heads, 2 scraps are summoned	| 3	| 2 | 1
+01031 |	Camelcorn |	At start of every turn, heal 4 hp from card being defended	| 0	| 12 | 2
+01032 |	Raging Fish | Upon death, Sushi is created, which heals up to 2 player cards to max hp	| 5	| 1 | 1
+01033 |	Coco-Ninja | When attacked, on heads, attack is dodged.	| 5	| 3 | 1
+01034 |	Coco-Farmer | When used, heal +3 hp to 2 field cards	| 3	| 4 | 1
+01035 |	Coco-Knight | When attacked, Warriors Code: Takes -3 atk from attacks	| 4	| 4 | 1
+01036 |	Torch | Once placed all player field cards gain +2 Atk & Hp	| 6	| 5 | 2
+01037 |	Buff Bumpkin | Veggie Table Smash! For 3 rounds, It gains +3 atk, So Buff!	| 5	| 6 | 1
+01038 |	The Ghostly Axerman | During first 3 rounds on field upon being played, this card can't be attacked	| 6	| 6 | 3
+01039 |	Pod Shooter | Pod Shot: Summon 2 pods	| 2	| 5 | 2
+01040 |	Constructor Bot | Sacrifice 2 scraps to summon 1 weak bot	| 2	| 5 | 2
+
+#Jacob's pool of strong cards
+01081 | Midnight Wolf |  When in the graveyard, card can return to hand based on a coin flip of heads | 7 | 9 | 2
+01082 | The Arsonist | Each attack deals burn (- 5 hp per turn); Upon death, and a successful coin flip, an explosion wipes out all enemy field cards + a 5 round field burn effect | 7 | 7 | 3
+01083 | Abstraction No. 1 (Mobile Void) | On heads, for 5 rounds, all attacks to it are nullified; On tails, card returns to player's hand | 9 | 7 | 3
+01084 | Abstraction No. 2 (French Lips) | Kissing Spree: On heads, attacks 3 enemy field cards | 10 | 6 | 1
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | On heads, card gains +3 atk for 3 rounds; On tails, card gains +3 hp for 3 rounds | 7 | 7 | 1
+01086 | Abstraction No. 4 (Ghouly Face) | Once played, 2 cards are spooked by this card's face, reducing their attack by -8 | 9 | 4 | 2
+01087 | The Watch Tower | All dmg to it is reduced by -5; Every 3 turns, all enemy field cards are atked with +6 atk | 0 | 16 | 3
+01088 | Coco-Mage |COCO-LOCO: On heads, 2 enemy field cards are turned into Coco-goons permanently | 8 | 8 | 2
+01089 | Stone Giant | On heads, gains +8 atk; On tails, gains +8 hp, reducing dmg to it to -1 atk but can't attack | 8 | 8 | 3
+01090 | Sea Wizard | On heads, an enemy field card can't attack until the wizard is destroyed; On tails, Wizard can't be dmg'd for 5 rounds | 6 | 7 | 2
+01091 | Homing Pigeon | Homing Signal: On heads, it is able to return to hand, along with another player field card; Dodges first 3 attacks to it | 6 | 7 | 3
+01092 | The Grave Digger! | Every turn, The Grave Digger! can pick one card from the graveyard to revive (not another Grave digger) | 6 | 7 | 3
+01093 | The Street Conjurer| Conjuring: On heads, player can draw and keep an enemy's card; On tails, a player can draw a card from their deck| 6 | 7 | 2
+01094 | Dark Necromancer Magician | Once played, a card in the graveyard is revived; On heads, another card can be revived (Only after this card has been played for 1 round)  | 7 | 9 | 3
+01095 | Orc Warrior | Brutal Clubbing: If an enemy card is slain from one attack from this card, it can continue attacking | 10 | 6 | 2
+
+<<<<<<< Updated upstream
+#Jacob's pool of powerful cards
+01161 | Missile Man | Missle Launch: On heads, can destroy 4 enemy field cards and return to hand| 10 | 8 | 3
+01162 | Mystic Dragon | True Mystic conjunction: all player field cards gain +5 atk & hp; for every player card on field, this card can attack again | 11| 13 | 3
+01163 | Flame Dragon | Dance Of Fire: On heads, attacks all enemy field cards with +3 attack; if successful, gains flame aura for 3 rounds and and player field cards gain +3 atk  | 10 | 13 | 3
+01164 | Silver Scaled Dragon | Silver Skin: Reduces all attacks to it by -5; When this card kills an enemy field card, dmg reduction increases by -1 | 11 | 14 | 3 |
+01165 | Eerie Elf of the Earth | Thief Of Souls: Can steal the special ability of an enemy/ player field card | 11 | 16 | 3 |
+
+
+#Summonables
+01880 | Small Bushy | Berry Drop: When attacked, a player card gains +3 hp; Growth: After 3 turns a Large Bushy or Thorny Bushy is summoned | 3 | 7 | 1
+01881 | Small Ent | Growth: after 3 turns, On heads, a Great Ent is summoned; On tails, a Druid is summoned| 5 | 7 | 1
+01882 | Great Ent |  Place a player card behind this card. It can't be attacked until this card is defeated. When defeated, a pod is summoned| 12 | 14 | 1
+01883 | Druid | Nature Blessing: All plant cards get +1 hp & atk every turn; Upon death, a pod is summoned | 7 | 10 | 1
+01884 | Large Bushy | Giant Berries: When attacked, a player card is given + 6 hp; Upon death, a pod is summoned | 3 | 16 | 1
+01885 | Thorny Bushy | Vine Thorns: When attacked, the enemy is also attacked. Upon death, pod is summoned | 6 | 15 | 1 
+
+01991 | Scrap | Scrap lmao | 1 | 0 | 1
+01992 | Pod | Growth: After 3 turns, it can transform into either a Small Ent (On heads) or a Small Bushy (On tails) | 2 | 2 | 1
+01993 | Weak Bot | Weak bot shit | 0 | 5 | 1
+
+
+=======
+#Connor's pool of strong cards
+01096 | The Demon Wolf | Once drawn from deck, discard 1 card; Returns to hand after defeating 1 enemy (x2 use) | 7 | 9
+01097 | Attack Demon | On heads, 2 enemy cards are hit with +4 atk | 8 | 6 
+01098 | Fish on the Roof | Strange Aura: Due to its strangeness, attacks to it are reduced by -5 dmg | 8 | 8
+01099 | Spike | Spike Trap: Next card placed by the enemy is attacked by -6 atk (3x use per game) | 8 |    6
+01100 | Shade | gains x2 atk while attacking a card that used its special | 9 |    7
+01101 | Ghoul | Every time Ghoul attacks, gains +2 Atk & Hp | 10 | 6
+01102 | Chunky Dog | Cuteness sheild: Because the chunky dog is adorable, any Attack to it is reduced By -5 atk | 15 | 0
+01103 | The Scout | Choose 1 of the following: A) Can attack twice; B) Intel: Look at enemy's hand & attack 1 hand card    | 9 | 4
+01104 | The Box Demon | When this card defeats another card, this card gains 10 hp | 10    | 6
+01105 | Demon Swordsman | Demon Slash: 1 enemy on feild is attacked with x2 attack | 7 | 9 
+01106 | Rat Demon | When defeated, roll 3 dice. If one of them is a 6, this card returns to field with full hp | 7 | 9
+01107 | Scrap Dog | Search graveyard for up to 6 bots. for each found, remove and summon 1 scrap | 6 | 9
+01108 | Big Iron | Biggest Iron: At the cost of 2 scraps, this card can attack 6 times | 8 | 7
+01109 | Sickle | Deuce in Duel: Can attack enemy feild card twice (x2 use) | 8 | 7
+01110 | Mystic Stag | Mystic Conjunction: All player feild cards gain +5 atk & hp | 8 | 8

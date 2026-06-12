@@ -1,0 +1,814 @@
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 19:34:10 EST 2025
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01008 | Pirate Parrot | Category: Weak | Rarity: 3 | ATK: 3 | HP: 7
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 19:34:36 EST 2025
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01008 | Pirate Parrot | Category: Weak | Rarity: 3 | ATK: 3 | HP: 7
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 19:35:25 EST 2025
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01039 | Pod Shooter | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 19:36:55 EST 2025
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01001 | The Local Sheriff | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 19:50:42 EST 2025
+01039 | Pod Shooter | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01018 | Classy UFO | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 19:55:58 EST 2025
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:01:44 EST 2025
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:13:20 EST 2025
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:15:10 EST 2025
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01009 | The Magic Vase | Category: Weak | Rarity: 3 | ATK: 8 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01040 | Constructor Bot | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:17:00 EST 2025
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01038 | The Ghostly Axerman | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:17:55 EST 2025
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01039 | Pod Shooter | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:19:26 EST 2025
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01008 | Pirate Parrot | Category: Weak | Rarity: 3 | ATK: 3 | HP: 7
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:20:32 EST 2025
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:22:12 EST 2025
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01001 | The Local Sheriff | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:24:34 EST 2025
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:27:38 EST 2025
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01040 | Constructor Bot | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:30:39 EST 2025
+01040 | Constructor Bot | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:35:00 EST 2025
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01040 | Constructor Bot | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:36:44 EST 2025
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:38:23 EST 2025
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:52:22 EST 2025
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:53:34 EST 2025
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:54:28 EST 2025
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:54:44 EST 2025
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01029 | Formless Beast | Category: Weak | Rarity: 3 | ATK: 5 | HP: 5
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Thu Nov 20 20:56:13 EST 2025
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 10:24:05 EST 2025
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 10:32:25 EST 2025
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:34:23 EST 2025
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:40:57 EST 2025
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:46:06 EST 2025
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:49:55 EST 2025
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01018 | Classy UFO | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:52:31 EST 2025
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:55:33 EST 2025
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01018 | Classy UFO | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 13:58:45 EST 2025
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 17:27:45 EST 2025
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01091 | Homing Pigeon | Category: Strong | Rarity: 123 | ATK: 6 | HP: 7
+01039 | Pod Shooter | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 17:28:46 EST 2025
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01018 | Classy UFO | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 17:30:38 EST 2025
+01084 | Abstraction No. 2 (French Lips) | Category: Strong | Rarity: 1 | ATK: 10 | HP: 6
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01086 | Abstraction No. 4 (Ghouly Face) | Category: Strong | Rarity: 2 | ATK: 9 | HP: 4
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01081 | Midnight Wolf | Category: Strong | Rarity: 2 | ATK: 7 | HP: 9
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 17:31:58 EST 2025
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01089 | Stone Giant | Category: Strong | Rarity: 3 | ATK: 8 | HP: 8
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Nov 21 21:59:36 EST 2025
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01095 | Orc Warrior | Category: Strong | Rarity: 2 | ATK: 10 | HP: 6
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | Category: Strong | Rarity: 1 | ATK: 7 | HP: 7
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Sat Nov 22 09:13:46 EST 2025
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01084 | Abstraction No. 2 (French Lips) | Category: Strong | Rarity: 1 | ATK: 10 | HP: 6
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+
+===== NEW PACK OPENED =====
+Timestamp: Sat Nov 22 09:31:37 EST 2025
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Sat Nov 22 09:59:59 EST 2025
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01002 | Flame Monkey | Category: Weak | Rarity: 2 | ATK: 5 | HP: 7
+01088 | Abstraction No. 8 (Jigsaw Man) | Category: Strong | Rarity: 2 | ATK: 10 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01002 | Flame Monkey | Category: Weak | Rarity: 2 | ATK: 5 | HP: 7
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Sat Nov 22 14:13:19 EST 2025
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Sat Nov 22 21:45:26 EST 2025
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01089 | Stone Giant | Category: Strong | Rarity: 3 | ATK: 8 | HP: 8
+01012 | The Unwilling Martyr | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Nov 23 11:31:46 EST 2025
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01088 | Abstraction No. 8 (Jigsaw Man) | Category: Strong | Rarity: 2 | ATK: 10 | HP: 6
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01086 | Abstraction No. 4 (Ghouly Face) | Category: Strong | Rarity: 2 | ATK: 9 | HP: 4
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | Category: Strong | Rarity: 1 | ATK: 7 | HP: 7
+
+===== NEW PACK OPENED =====
+Timestamp: Mon Nov 24 12:03:36 EST 2025
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+
+===== NEW PACK OPENED =====
+Timestamp: Mon Nov 24 12:29:08 EST 2025
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01002 | Flame Monkey | Category: Weak | Rarity: 2 | ATK: 5 | HP: 7
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+
+===== NEW PACK OPENED =====
+Timestamp: Mon Nov 24 12:49:04 EST 2025
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01007 | Candle Stick Mage | Category: Weak | Rarity: 2 | ATK: 7 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Tue Nov 25 08:41:13 EST 2025
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01018 | Classy UFO | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01009 | The Magic Vase | Category: Weak | Rarity: 3 | ATK: 8 | HP: 4
+01084 | Abstraction No. 2 (French Lips) | Category: Strong | Rarity: 1 | ATK: 10 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01088 | Abstraction No. 8 (Jigsaw Man) | Category: Strong | Rarity: 2 | ATK: 10 | HP: 6
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Mon Dec 01 15:45:36 EST 2025
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Tue Dec 02 09:08:45 EST 2025
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | Category: Strong | Rarity: 1 | ATK: 7 | HP: 7
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Wed Dec 03 13:12:05 EST 2025
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01081 | Midnight Wolf | Category: Strong | Rarity: 2 | ATK: 7 | HP: 9
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Wed Jan 21 10:09:22 EST 2026
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Jan 23 08:49:10 EST 2026
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Jan 23 08:51:33 EST 2026
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Jan 25 17:37:09 EST 2026
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01090 | Sea Wizard | Category: Strong | Rarity: 2 | ATK: 6 | HP: 7
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Feb 08 09:42:50 EST 2026
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01083 | Abstraction No. 1 (Mobile Void) | Category: Strong | Rarity: 3 | ATK: 9 | HP: 7
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Feb 27 13:25:01 EST 2026
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01095 | Orc Warrior | Category: Strong | Rarity: 2 | ATK: 10 | HP: 6
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Feb 27 22:48:02 EST 2026
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | Category: Strong | Rarity: 1 | ATK: 7 | HP: 7
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | Category: Strong | Rarity: 1 | ATK: 7 | HP: 7
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Mar 01 13:42:53 EST 2026
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Mar 01 13:45:16 EST 2026
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01026 | Battle Bot | Category: Weak | Rarity: 2 | ATK: 7 | HP: 3
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Mar 01 13:52:39 EST 2026
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01021 | Ice Spirit | Category: Weak | Rarity: 1 | ATK: 3 | HP: 9
+01081 | Midnight Wolf | Category: Strong | Rarity: 2 | ATK: 7 | HP: 9
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Mar 01 13:53:26 EST 2026
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01024 | Skelly bros | Category: Weak | Rarity: 1 | ATK: 4 | HP: 5
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Tue Mar 03 10:34:20 EST 2026
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01029 | Formless Beast | Category: Weak | Rarity: 3 | ATK: 5 | HP: 5
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01081 | Midnight Wolf | Category: Strong | Rarity: 2 | ATK: 7 | HP: 9
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Tue Mar 03 15:25:46 EST 2026
+01008 | Pirate Parrot | Category: Weak | Rarity: 3 | ATK: 3 | HP: 7
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01035 | Coco-Knight | Category: Weak | Rarity: 1 | ATK: 4 | HP: 4
+01002 | Flame Monkey | Category: Weak | Rarity: 2 | ATK: 5 | HP: 7
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01005 | Short Knight | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01091 | Homing Pigeon | Category: Strong | Rarity: 3 | ATK: 6 | HP: 7
+01012 | The Unwilling Martyr | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Sat Mar 07 19:12:00 EST 2026
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01014 | Crystalite | Category: Weak | Rarity: 2 | ATK: 1 | HP: 8
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01040 | Constructor Bot | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Mar 08 11:23:12 EDT 2026
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01011 | Traveling Troubadour | Category: Weak | Rarity: 2 | ATK: 5 | HP: 6
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01020 | Skeleton | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01015 | T-Bot (Mini) | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01093 | Midnight Knight | Category: Strong | Rarity: 2 | ATK: 9 | HP: 7
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Sun Mar 08 11:23:29 EDT 2026
+01040 | Constructor Bot | Category: Weak | Rarity: 2 | ATK: 2 | HP: 5
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01030 | Miner Bot | Category: Weak | Rarity: 1 | ATK: 3 | HP: 2
+01088 | Abstraction No. 8 (Jigsaw Man) | Category: Strong | Rarity: 2 | ATK: 10 | HP: 6
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01085 | Abstraction No. 3 (Twin Pyramid Specter) | Category: Strong | Rarity: 1 | ATK: 7 | HP: 7
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+
+===== NEW PACK OPENED =====
+Timestamp: Mon Mar 09 09:38:13 EDT 2026
+01089 | Stone Giant | Category: Strong | Rarity: 3 | ATK: 8 | HP: 8
+01004 | Coco Goons | Category: Weak | Rarity: 1 | ATK: 2 | HP: 4
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01084 | Abstraction No. 2 (French Lips) | Category: Strong | Rarity: 1 | ATK: 10 | HP: 6
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01036 | Torch | Category: Weak | Rarity: 2 | ATK: 6 | HP: 5
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+
+===== NEW PACK OPENED =====
+Timestamp: Tue Mar 10 16:16:00 EDT 2026
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+01009 | The Magic Vase | Category: Weak | Rarity: 3 | ATK: 8 | HP: 4
+01027 | Snow hare | Category: Weak | Rarity: 1 | ATK: 3 | HP: 3
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01086 | Abstraction No. 4 (Ghouly Face) | Category: Strong | Rarity: 2 | ATK: 9 | HP: 4
+01090 | Sea Wizard | Category: Strong | Rarity: 2 | ATK: 6 | HP: 7
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Mar 13 09:47:48 EDT 2026
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01031 | Camelcorn | Category: Weak | Rarity: 2 | ATK: 0 | HP: 12
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01010 | Clueless Daredevil | Category: Weak | Rarity: 2 | ATK: 6 | HP: 6
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01093 | Midnight Knight | Category: Strong | Rarity: 2 | ATK: 9 | HP: 7
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01003 | Buffo | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+
+===== NEW PACK OPENED =====
+Timestamp: Fri Mar 13 09:49:36 EDT 2026
+01033 | Coco-Ninja | Category: Weak | Rarity: 1 | ATK: 5 | HP: 3
+01023 | Fire Spirit | Category: Weak | Rarity: 1 | ATK: 5 | HP: 4
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01025 | Scrap Bot | Category: Weak | Rarity: 1 | ATK: 1 | HP: 2
+01090 | Sea Wizard | Category: Strong | Rarity: 2 | ATK: 6 | HP: 7
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+
+===== NEW PACK OPENED =====
+Timestamp: Tue Apr 28 13:53:43 EDT 2026
+01028 | Arctic fox | Category: Weak | Rarity: 1 | ATK: 6 | HP: 6
+01037 | Buff Bumpkin | Category: Weak | Rarity: 1 | ATK: 5 | HP: 6
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01018 | Classy UFO | Category: Weak | Rarity: 3 | ATK: 6 | HP: 6
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+
+===== NEW PACK OPENED =====
+Timestamp: Sun May 31 14:51:30 EDT 2026
+01016 | C-Rock-odile | Category: Weak | Rarity: 1 | ATK: 2 | HP: 8
+01006 | Strange Airborne Device | Category: Weak | Rarity: 1 | ATK: 4 | HP: 6
+01094 | Dark Necromancer Magician | Category: Strong | Rarity: 3 | ATK: 7 | HP: 9
+01017 | Stick Man | Category: Weak | Rarity: 1 | ATK: 1 | HP: 1
+01019 | Lucky Gun Slinger | Category: Weak | Rarity: 1 | ATK: 5 | HP: 5
+01034 | Coco-Farmer | Category: Weak | Rarity: 1 | ATK: 3 | HP: 4
+01032 | Raging Fish | Category: Weak | Rarity: 1 | ATK: 5 | HP: 1
+01022 | Water Spirit | Category: Weak | Rarity: 1 | ATK: 4 | HP: 8
+

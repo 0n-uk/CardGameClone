@@ -1,0 +1,273 @@
+#specials code
+
+
+#jacob pool of weak cards w/ specials START
+
+#local sheriff
+01001|CHOSEN|CF|if_1: instakill[2] + return2hand| if_2: null
+
+#flame monkey
+01002|PASSIVE|ON_PLAY|if_1: untargetable[3]|if_2: null|
+
+#buffo
+01003 | PASSIVE | ON_PLAY | if_1: auraAtkDown[3] | if_2: null
+
+#coco goons
+01004 | PASSIVE | ON_DEATH | if_1: healfieldtomax | if_2: null
+
+# Short Knight (Active Coinflip: +3 ATK on Heads, +3 HP on Tails)
+01005 | CHOSEN | 00 | CF | if_1: addAtk[3] | if_2: addHp[3]  
+
+# Strange Airborne Device (Death Bomb: 5 damage to enemy field)
+01006 | PASSIVE | ON_DEATH | if_1: damageEnemyField[5] | if_2: null
+
+#candlestick mage
+01007 | PASSIVE | ON_DEATH | if_1: nukefield | if_2: null
+
+# Pirate Parrot (Mimics the last cast special)
+01008 | CHOSEN | 00 | NONE | if_1: mimicSpecial | if_2: null
+
+#the magic vase
+01009 | CHOSEN | 00 | CF | drawcards[2] | if_2: selectrevivetofield[1]
+
+# Clueless Daredevil
+01010 | PASSIVE | ON_PLAY | if_1: omni_dodge[3] | if_2: null
+
+#Traveling troubadour 
+01011 | CHOSEN | 01 | CF | if_1: stealcard[1] | if_2: null
+
+#unwilling martyr
+01012 | PASSIVE | ON_DEATH | if_1: martyr_revive | if_2: null
+
+#quick bomb
+01013 | PASSIVE | ON_KILL | if_1: return2hand | if_2: null
+
+#crystalite
+01014 | PASSIVE | ON_PLAY | if_1: reduceTo[1] | if_2: null
+
+#t-bot mini
+01015 | PASSIVE | ON_DEFEND | if_1: confuse_redirect | if_2: null
+
+# The C-Rock-odile subtracts 5 from incoming damage
+01016 | PASSIVE | ON_PLAY | if_1: reduceBy[5] | if_2: null
+
+#stickman
+01017|PASSIVE|ON_PLAY|if_1: null|if_2: null|
+
+#classy ufo
+01018 | ACTIVE | CF | reflectshield[5] | null ++ PASSIVE | ON_PLAY | sweepatkmult[2] | null
+
+# Lucky Gun Slinger
+01019 | ACTIVE | CF | sweepatkmult[2] | suicide[0]
+
+# Skeleton
+01020 | PASSIVE | ON_PLAY | defensebuff[3] | null
+
+
+#jacob pool of weak cards w/ specials END 
+
+
+
+#Connors pool of weak cards START
+
+#Ice Spirit
+01021 | CHOSEN | CF | target(1) -> if_1: frozen[3] | if_2: null
+
+# Water Spirit (Grants all allies +2 HP on play, removes it on death)
+01022 | PASSIVE | ON_PLAY | if_1: water_shield_up[2] | if_2: null ++ PASSIVE | ON_DEATH | if_1: water_shield_down[2] | if_2: null
+
+#Fire Spirit
+01023 | PASSIVE | ON_ATTACK | if_1: apply_burn[2_4] | if_2: null
+
+#skeley bros
+01024 | CHOSEN | CF | if_1: strike[3] | if_2: suicide[0]
+
+# 01025 | Scrap Bot (Spawns 1 scrap immediately, then 1 every 3 turns)
+01025 | PASSIVE | ON_PLAY | if_1: summon_token[1_01991] + apply_spawner[01991_3] | if_2: null
+
+#Battle Bot 
+01026 | PASSIVE | ON_ATTACK | if_1: token_bonus_strike[01991_1] | if_2: null
+
+#Snow hare
+01027 | PASSIVE | ON_DEFEND | CF | if_1: addDodges[1] | if_2: null
+
+# Arctic Fox (Applies Mark on first hit, deals 2x damage on second hit)
+01028 | PASSIVE | ON_ATTACK | if_1: mark_or_execute[0] | if_2: null
+
+# Formless Beast (Absorbs base stats of targeted card)
+01029 | CHOSEN | NONE | target_any(1) -> if_1: assimilate[0] | if_2: null
+
+# Miner Bot
+01030 | CHOSEN | CF | if_1: summon_token[2_01991] | if_2: null
+
+# Camel Corn
+01031 | PASSIVE | ON_PLAY | if_1: apply_camel_heal[4] | if_2: null
+
+# Raging Fish
+01032 | PASSIVE | ON_DEATH | if_1: heal_random_allies[2] | if_2: null
+
+#CocoNinja
+01033 | PASSIVE | ON_DEFEND | CF | if_1: addDodges[1] | if_2: null
+
+#Coco-Farmer
+01034 | CHOSEN | NONE | target_ally(2) -> if_1: heal_target[3] | if_2: null
+
+#CocoKnight
+01035 | PASSIVE | ON_PLAY | if_1: reduceBy[3] | if_2: null
+
+#Torch
+01036 | PASSIVE | ON_PLAY | if_1: buff_allies[2] | if_2: null
+
+#Buff Bumpkin
+01037 | PASSIVE | ON_PLAY | if_1: tempatk[3_3] | if_2: null
+
+#the ghostly axerman 
+01038 |PASSIVE|ON_PLAY|if_1: untargetable[3]|if_2: null|
+
+#Pod Shooter
+01039 | CHOSEN | NONE | if_1: summon_token[2_01992] | if_2: null
+
+#Constructor Bot (Target 2 scraps [01991] to choose and summon a weak bot)
+01040 | CHOSEN | NONE | target_ally(2) -> if_1: constructor_menu[01991_01025_01026_01030] | if_2: null
+
+
+
+#Connors pool of weak cards END
+
+
+
+jacob pool of strong cards START
+
+# Midnight Wolf
+01081 | PASSIVE | ON_DEATH | bounce_to_hand[0] | donothing[0]
+
+# The Arsonist
+01082 | PASSIVE | ON_ATTACK | if_1: apply_burn[5] | if_2: null ++ PASSIVE | ON_DEATH | CF | if_1: nuke_enemy_field[0] + field_burn[5_5] | if_2: null
+
+#mobile void 
+01083 | ACTIVE | CF | if_1: untargetable[5] | if_2: return2hand
+
+#French lips
+01084 | CHOSEN | CF | if_1: strike[3] | if_2: null
+
+#Twin Pyramid Specter
+01085 | CHOSEN | CF | if_1: tempatk[3_3] | if_2: temphp[3_3]
+
+#ghouly face
+01086 | PASSIVE | ON_PLAY | target(2) -> if_1: debuffatk[8] | if_2: null
+
+# The Watch Tower
+01087 | PASSIVE | ON_PLAY | if_1: reduceby[5] + pacify[99] + timebomb[6_3] | if_2: null
+
+# Coco-Mage
+01088 | CHOSEN | CF | target(2) -> if_1: transform[01004] | if_2: null
+
+# Stone Giant
+01089 | CHOSEN | CF | if_1: addAtk[8] | if_2: addHp[8] + reduceby[1] + pacify[99] + disable_special[0]
+
+# Sea Wizard
+01090 | CHOSEN | CF | target(1) -> if_1: pacify[99] | if_2: untargetable[5] ++ PASSIVE | ON_DEATH | if_1: unpacify_enemies[0] | if_2: null
+
+# Homing Pigeon
+01091 | CHOSEN | CF | if_1: return2hand + target_ally(1) -> return_target_2_hand | if_2: null ++ PASSIVE | ON_PLAY | if_1: addDodges[3] | if_2: null
+
+# The Grave Digger!
+01092 | ACTIVE | NONE | if_1: selectrevivetofield[1] | if_2: null
+
+#Street Conjurer 
+01093 | CHOSEN | CF | if_1: stealenemydraw[1] | if_2: drawcards[1]
+
+# Dark Necromancer Magician
+01094 | ACTIVE | CF | if_1: selectrevivetofield[1] | if_2: null ++ PASSIVE | ON_PLAY | if_1: selectrevivetofield[1] + exhaust_action[0] | if_2: null
+
+#Orc Warrior
+01095 | PASSIVE | ON_KILL | if_1: refresh_actions[1] | if_2: null
+
+#jacob pool of strong cards END
+
+#connor pool of strong cards START
+
+#The Demon Wolf
+01096 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#Attack Demon (Complete)
+01097 | CHOSEN | CF | if_1: addAtk[4] + target[2] | if_2: null 
+
+#Fish on the Roof (Complete)
+01098 | PASSIVE | ON_PLAY | if_1: reduceby[5] | if_2: null
+
+#Spike
+01099 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#Shade
+01100 |PASSIVE|ON_PLAY|if_1: null|if_2: null|
+
+#Ghoul (Complete)
+01101 | PASSIVE | ON_ATTACK | if_1: addAtk[2] + addHp[2] | if_2: null
+
+#Chunky Dog (Complete)
+01102 | PASSIVE | ON_PLAY | if_1: reduceby[5] | if_2: null
+
+#The Scout
+01103 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#The Box Demon (Complete);
+01104 | PASSIVE | ON_KILL | if_1: addHp[10] | if_2: null
+
+#Demon Swordsman
+01105 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#Rat Demon
+01106 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#Scrap Dog
+01107 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#Big Iron
+01108 |PASSIVE|ON_PLAY|if_1: null|if_2: null|
+
+#Sickle
+01109 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#Mystic Stag
+01110 |PASSIVE|ON_PLAY|if_1: null|if_2: null| 
+
+#connor pool of strong cards END
+
+#jacob pool of powerful cards BEGIN
+
+#missile man
+01161 | CHOSEN | CF |if_1: instakill[3] + return2hand| if_2: null
+
+#mystic dragon
+01162 | PASSIVE | ON_PLAY | if_1: apply_mystic_aura[5] + buff_allies[5] + refresh_actions_per_ally[1] | if_2: null ++ PASSIVE | ON_TURN_START | if_1: refresh_actions_per_ally[1] | if_2: null
+
+#flame dragon
+01163 | ACTIVE | CF | if_1: tempatk[3_3] + sweepatkmult[1] + untargetable[3] + buff_allies[3] | if_2: null ++ ON_DEFEND | NONE | if_1: null | if_2: null
+
+#Silver scaled Dragon
+01164 | ON_PLAY | NONE | if_1: reduceby[5] | if_2: null ++ ON_KILL | NONE | if_1: upgrade_reduceby[1] | if_2: null
+
+# Eerie Elf of the Earth
+01165 | CHOSEN | NONE | target_any(1) -> if_1: steal_special[0] | if_2: null
+
+
+
+#summonables
+# 01880 | Small Bushy (Heals 3 on defend, evolves after 3 turns)
+01880 | PASSIVE | ON_PLAY | if_1: apply_growth[3] | if_2: null ++ PASSIVE | ON_GROWTH | CF | if_1: transform[01884] | if_2: transform[01885] ++ PASSIVE | ON_DEFEND | if_1: berry_drop[3] | if_2: null
+
+# 01881 | Small Ent (Evolves after 3 turns)
+01881 | PASSIVE | ON_PLAY | if_1: apply_growth[3] | if_2: null ++ PASSIVE | ON_GROWTH | CF | if_1: transform[01882] | if_2: transform[01883]
+
+# 01883 | Druid (Buffs plants every turn, spawns Pod on death)
+01883 | PASSIVE | ON_PLAY | if_1: apply_nature_blessing[1] | if_2: null ++ PASSIVE | ON_DEATH | if_1: summon_token[1_01992] | if_2: null
+
+# 01884 | Large Bushy (Heals 6 on defend, spawns Pod on death)
+01884 | PASSIVE | ON_DEFEND | if_1: berry_drop[6] | if_2: null ++ PASSIVE | ON_DEATH | if_1: summon_token[1_01992] | if_2: null
+
+# 01885 | Thorny Bushy (Thorns on defend, spawns Pod on death)
+01885 | PASSIVE | ON_DEFEND | if_1: vine_thorns | if_2: null ++ PASSIVE | ON_DEATH | if_1: summon_token[1_01992] | if_2: null
+
+# 01992 | Pod (Evolves into Small Ent [Heads] or Small Bushy [Tails])
+01992 | PASSIVE | ON_PLAY | if_1: apply_growth[3] | if_2: null ++ PASSIVE | ON_GROWTH | CF | if_1: transform[01881] | if_2: transform[01880]
